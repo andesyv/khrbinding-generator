@@ -1,0 +1,50 @@
+{
+	"": "API specification",
+	"sourceUrl": "https://raw.githubusercontent.com/KhronosGroup/OpenGL-Registry/master/xml/gl.xml",
+	"sourceFile": "gl.xml",
+
+    "": "Parser configuration",
+    "parser": "gl",
+
+	"": "Identifier parsing",
+	"lowercasePrefix": "gl",
+	"uppercasePrefix": "GL_",
+
+	"": "Meta Feature management",
+    "generator": "cpp",
+	"bindingNamespace": "glmixedbinding",
+	"baseNamespace": "glmixed",
+	"generateFeatures": true,
+	"generateProfiles": true,
+	"coreProfileSince": null,
+	"multiContext": true,
+	"generateStringLookup": true,
+	"generateStringConversion": true,
+	"generateCallbacks": true,
+	"generateLogging": true,
+	"generateHeaderGuard": true,
+	"headerGuardMacro": [ "__glmixed_h_" ],
+	"headerReplacement": [ "glmixed.h" ],
+
+	"": "Types",
+	"extensionType": "GLextension",
+	"booleanType": "GLboolean",
+	"booleanWidth": 32,
+	"enumType": "GLenum",
+	"bitfieldType": "GLbitfield",
+	"noneBitfieldValue": "GL_NONE_BIT",
+	"cStringOutputTypes": [ "GLubyte", "GLchar" ],
+
+	"": "API Feature management",
+	"apiIdentifier": [ "gl", "gles2" ],
+	"versions": [],
+	"featureBlacklist": [],
+	"extensionBlacklist": [],
+	"useBitfieldGroups": true,
+	"useEnumGroups": false,
+	"generateNoneBits": true,
+	"generateBitfieldTypeIntegrations": true,
+	"generateEnumTypeIntegrations": true,
+
+	"": "File patterns"
+}
