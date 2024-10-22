@@ -27,8 +27,8 @@
 	"generateCallbacks": true,
 	"generateLogging": true,
 	"generateHeaderGuard": true,
-	"headerGuardMacro": [ "__glmixed_h_" ],
-	"headerReplacement": [ "gl.h" ],
+	"headerGuardMacro": [ "__gl_h_", "__gles2_h_", "__gles3_h_" ],
+	"headerReplacement": [ "gl.h", "gles2.h", "gles3.h" ],
 
 	"": "Types",
 	"extensionType": "GLextension",
