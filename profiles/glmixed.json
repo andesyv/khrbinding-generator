@@ -16,7 +16,11 @@
 	"baseNamespace": "glmixed",
 	"generateFeatures": true,
 	"generateProfiles": true,
-	"coreProfileSince": null,
+	"coreProfileSince":
+	{
+		"gl": "3.2",
+		"gles2": null
+	},
 	"multiContext": true,
 	"generateStringLookup": true,
 	"generateStringConversion": true,
@@ -24,7 +28,7 @@
 	"generateLogging": true,
 	"generateHeaderGuard": true,
 	"headerGuardMacro": [ "__glmixed_h_" ],
-	"headerReplacement": [ "glmixed.h" ],
+	"headerReplacement": [ "gl.h" ],
 
 	"": "Types",
 	"extensionType": "GLextension",
