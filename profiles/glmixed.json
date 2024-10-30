@@ -32,8 +32,8 @@
 	"bitfieldType": "GLbitfield",
 	"noneBitfieldValue": "GL_NONE_BIT",
 	"cStringOutputTypes": [ "GLubyte", "GLchar" ],
-	"headerGuardMacro": [ "__gl_h_", "__gles2_h_", "__gles3_h_" ],
-	"headerReplacement": [ "gl.h", "gles2.h", "gles3.h" ],
+	"headerGuardMacro": [ "__gl_h_", "__gles_h_", "__gles1_h_", "__gles2_h_", "__gles3_h_" ],
+	"headerReplacement": [ "gl.h", "gles.h", "gles1.h", "gles2.h", "gles3.h" ],
 
 	"": "API Feature management",
 	"apis": [
@@ -41,6 +41,10 @@
 			"identifier": "gl",
 			"coreProfileSince": "3.2",
 			"entryPointHeader": "gl.h"
+		},
+		{
+			"identifier": "gles1",
+			"entryPointHeader": "gles.h"
 		},
 		{
 			"identifier": "gles2",
