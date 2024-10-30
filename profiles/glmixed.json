@@ -21,6 +21,7 @@
 	"generateStringConversion": true,
 	"generateCallbacks": true,
 	"generateLogging": true,
+	"stripFeatureHeaders": true,
 	"generateHeaderGuard": true,
 
 	"": "Types",
